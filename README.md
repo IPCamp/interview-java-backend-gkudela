@@ -11,6 +11,7 @@ Put the source files ClientMgmt.java and PersonalData.java into a directory with
 You can compile and run simply:
 
 prompt> javac ClientMgmt.java
+
 prompt> java ClientMgmt
 
 2. The greeting
