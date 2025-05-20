@@ -24,3 +24,12 @@ javac -cp java-llama.cpp/src/main/java BirthdayGreeting.java
 Run:
 
 java -cp .:java-llama.cpp/src/main/java -Djava.library.path=java-llama.cpp/build/bin BirthdayGreeting
+
+You have to download this file and copy to the matching path; it's too big to upload on Github.
+
+java-llama.cpp/build/_deps/llama.cpp-src/models/dolphin-2.2.1-mistral-7b.Q4_K_M.gguf
+
+Source:
+
+https://huggingface.co/TheBloke/dolphin-2.2.1-mistral-7B-GGUF/blob/main/dolphin-2.2.1-mistral-7b.Q4_K_M.gguf
+
