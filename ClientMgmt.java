@@ -92,8 +92,9 @@ public class ClientMgmt {
             HelpVar.gender=gender.charAt(0);
             HelpVar.age=age;
             HelpVar.keywords=keywords;
-            System.out.println("DEBUG "+maxind);
-            data.put(Integer.toString(maxind+1),HelpVar);
+            maxind++;
+            // System.out.println("DEBUG "+maxind);
+            data.put(Integer.toString(maxind),HelpVar);
             modif=true;
 
         } //end of 2
