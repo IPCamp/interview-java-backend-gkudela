@@ -193,7 +193,7 @@ public class ClientMgmt {
             }
             
             catch (IOException e) {
-                System.err.println("Error reading the CSV file: " + e.getMessage());
+                System.err.println("Error writing the CSV file: " + e.getMessage());
                 e.printStackTrace();
             }
         
